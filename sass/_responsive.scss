@@ -1,0 +1,60 @@
+@media screen and (min-width: 1024px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 1% 10%;
+		&__logo {
+			margin-top: 10px;
+		}
+	}
+	.nav__link {
+		font-size: 1rem;
+	}
+	.main {
+		padding: 3% 15%;
+
+		&__paragraph {
+			padding: 0 10rem;
+		}
+	}
+	.event {
+		padding: 1.2rem 10rem 1.2rem 7rem;
+		flex-direction: row;
+		justify-content: space-between;
+
+		&__details {
+			margin-top: 20px;
+			text-align: left;
+		}
+		&__desc {
+			margin: 0.8rem 0 0;
+		}
+		&__btn {
+			margin-top: 0;
+		}
+	}
+	.collab__cards {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.mission__cards {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.m-card {
+		width: 400px;
+	}
+	.blog__prev {
+		top: 20%;
+		left: 0;
+		position: absolute;
+	}
+	.blog__next {
+		top: 20%;
+		right: 0;
+		position: absolute;
+	}
+}

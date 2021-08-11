@@ -1,0 +1,26 @@
+.footer {
+  background-color: #454850;
+  text-align: center;
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 25px;
+    border-bottom: 1px solid #808286;
+    margin: 0 10%;
+  }
+  &__icon {
+    font-size: 1.5rem;
+    color: #61c0bd;
+    margin: 0 10px;
+  }
+  &__copyrights {
+    padding: 20px;
+    color: #9698a0;
+    & a {
+      text-decoration: none;
+      color: #61c0bd;
+    }
+  }
+}

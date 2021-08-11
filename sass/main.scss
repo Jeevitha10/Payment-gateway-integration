@@ -1,0 +1,22 @@
+@import "normalize";
+@import "variables";
+@import "mixins";
+@import "header/nav";
+@import "header/main";
+@import "header/event";
+@import "sections/collaboration";
+@import "sections/mission";
+@import "footer/footer";
+@import "form";
+@import "responsive";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	scroll-behavior: smooth;
+}

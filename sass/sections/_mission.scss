@@ -1,0 +1,60 @@
+.mission {
+	background-color: $background-color;
+	padding-bottom: 30px;
+	&__header {
+		text-align: center;
+		color: rgba($color: #000000, $alpha: 0.6);
+	}
+	&__title {
+		text-transform: uppercase;
+		font-weight: normal;
+		padding: 20px 0;
+	}
+	&__subtitle {
+		font-weight: normal;
+		padding: 0 10px 20px;
+	}
+	&__invite {
+		padding: 0 5px 20px;
+		font-weight: normal;
+	}
+}
+.mission__cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.m-card {
+	margin: 70px 15px 0;
+	background-color: #ffffff;
+	position: relative;
+	&__logo {
+		width: 100px;
+		height: 100px;
+		background-color: $btn-color;
+		border-radius: 50%;
+		border: 10px solid #fff;
+		font-size: 2rem;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 0%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&__title {
+		padding-top: 50px;
+		padding-bottom: 10px;
+		text-align: center;
+		font-weight: normal;
+		color: $btn-color;
+	}
+	&__details {
+		text-align: center;
+		padding: 0 10px 20px;
+		opacity: 0.6;
+	}
+}

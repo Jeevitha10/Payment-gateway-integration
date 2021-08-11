@@ -1,0 +1,32 @@
+.event {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(241, 242, 245);
+	padding: 3% 1%;
+	&__details {
+		text-align: center;
+	}
+	&__next {
+		font-weight: bold;
+		color: $btn-color;
+	}
+	&__link {
+		text-decoration: none;
+		color: rgba($color: #000000, $alpha: 0.9);
+	}
+	&__desc {
+		margin-top: 8px;
+		opacity: 0.8;
+		font-size: 0.9rem;
+	}
+	&__btn {
+		margin-top: 2%;
+		background: $btn-color;
+		text-align: center;
+		text-decoration: none;
+		padding: 10px 20px;
+		color: #fff;
+	}
+}

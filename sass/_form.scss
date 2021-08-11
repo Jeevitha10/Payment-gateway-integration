@@ -1,0 +1,31 @@
+.pay {
+	display: flex;
+	justify-content: center;
+	background-image: url("../images/donate.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	&__form {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&__btn {
+		margin-top: 100px;
+	}
+	&__link {
+		text-decoration: none;
+		padding: 0.6rem 1.3rem;
+		border-radius: 8px;
+		background-color: $btn-color;
+		box-shadow: 0 1px 2px rgba($color: #ffffff, $alpha: 0.5);
+		color: #fff;
+		&:hover {
+			background-color: transparent;
+			border: 2px solid $btn-color;
+			color: $btn-color;
+		}
+	}
+}
